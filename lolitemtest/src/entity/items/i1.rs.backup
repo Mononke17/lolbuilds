@@ -1,0 +1,41 @@
+use crate::entity::items::Item;
+static LONGSWORD: Item =  Item {
+
+id:  1 ,
+tier: 1,
+name: String::from("Longsword"),
+price: 350,
+
+
+
+//
+//stats
+//
+
+//Offensive:
+ability_power: 0,
+attack_damage: 10,
+attack_speed: 0,
+critical_strike_chance: 0,
+percentage_armor_penetration: 0,
+lethality: 0,
+flat_magic_penetration: 0,
+percentage_magic_penetration: 0,
+life_steal: 0,
+omnivamp: 0,
+physical_vamp: 0,
+
+//Defensive:
+health: 0,
+health_regeneration: 0,
+heal_shield_power: 0,
+armor: 0,
+magic_resist: 0,
+tenacity: [0; 2], //[value, type]
+
+//Utility:
+ability_haste: 0,
+mana: 0,
+mana_regeneration: 0,
+movement_speed: 0,
+};
